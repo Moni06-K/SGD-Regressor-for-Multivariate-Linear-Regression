@@ -23,7 +23,8 @@ Program to implement the multivariate linear regression model for predicting the
 Developed by:MONISHA.A.K 
 RegisterNumber: 212225230187 
 */
-```import numpy as np
+
+import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import SGDRegressor
@@ -48,7 +49,7 @@ Y_pred=multi_output_sgd.predict(X_test)
 Y_pred=scaler_Y.inverse_transform(Y_pred)
 Y_test=scaler_Y.inverse_transform(Y_test)
 print("\nPredictions:\n",Y_pred[:5])*/```
-
+```
 ## Output:
 
 <img width="409" height="162" alt="Screenshot 2026-05-18 154004" src="https://github.com/user-attachments/assets/3c9db561-d693-4519-b507-36d68e59866e" />
